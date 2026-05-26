@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SysMed IA - Plataforma de IA para Saúde e Pesquisa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/LogoSisMed.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Tela de Loading -->
+    <div id="loading-screen" aria-hidden="false">
+      <div class="loader-wrap">
+        <img src="assets/LogoSisMed.png" alt="SysMed IA" class="loader-logo" />
+        <div class="loader-text">Carregando SysMed IA</div>
+        <div
+          class="loader-bar"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <div class="loader-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <nav class="navbar">
+        <div class="nav-content">
+          <div class="logo">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="32"
+                height="32"
+                rx="8"
+                fill="currentColor"
+                opacity="0.1"
+              />
+              <path
+                d="M10 16C10 12.686 12.686 10 16 10C19.314 10 22 12.686 22 16C22 19.314 19.314 22 16 22"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <circle cx="16" cy="16" r="3" fill="currentColor" />
+            </svg>
+            <span>SysMed IA</span>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produto">Produto</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#contato" class="nav-cta">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-content">
+          <div class="hero-badge">✨ Inteligência Artificial para Saúde</div>
+          <h1>Tecnologia Inteligente para Pesquisa e Saúde</h1>
+          <p>
+            A SysMed IA é uma plataforma SaaS com Inteligência Artificial
+            desenvolvida para auxiliar pesquisadores e profissionais da saúde na
+            organização científica, análise de dados e apoio à tomada de
+            decisão.
+          </p>
+          <div class="hero-buttons">
+            <a href="#produto" class="btn btn-primary">Conheça a Plataforma</a>
+            <a href="#contato" class="btn btn-secondary">Solicitar Demo</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card">IA</div>
+          <div class="floating-card card-2">Saúde</div>
+          <div class="floating-card card-3">Pesquisa</div>
+          <div class="floating-card card-4">Análise</div>
+          <div class="floating-card card-5">Dados</div>
+          <div class="floating-card card-6">Cloud</div>
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre">
+      <h2 class="section-title">Sobre a SysMed IA</h2>
+
+      <p>
+        A SysMed IA é uma startup de tecnologia focada em integrar Inteligência
+        Artificial à pesquisa científica e ao suporte médico. A plataforma foi
+        criada para aumentar a produtividade, melhorar a organização de
+        protocolos e auxiliar profissionais da saúde com análises inteligentes e
+        acessíveis.
+      </p>
+    </section>
+
+    <section id="produto" class="features-section">
+      <div class="section-header">
+        <h2 class="section-title">Nossa Solução Completa</h2>
+        <p class="section-subtitle">
+          Ferramentas inteligentes para Pesquisa, Medicina e Tecnologia
+        </p>
+      </div>
+
+      <div class="cards">
+        <!-- PESQUISA -->
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 10.5H21M7 16H21M7 21.5H14M4 5.5H24C24.8284 5.5 25.5 6.17157 25.5 7V23C25.5 23.8284 24.8284 24.5 24 24.5H4C3.17157 24.5 2.5 23.8284 2.5 23V7C2.5 6.17157 3.17157 5.5 4 5.5Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>Organização de Pesquisas</h3>
+          <p>
+            Centralização de estudos, protocolos e artigos científicos com
+            versionamento inteligente.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="14"
+                r="8"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M17.5 20.5L25 28"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <h3>Análise de Dados</h3>
+          <p>
+            Ferramentas avançadas para visualização, processamento e
+            interpretação de grandes volumes de dados de pesquisa.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 12C4 8.13401 7.13401 5 11 5C14.866 5 18 8.13401 18 12M10 18H24C24.5523 18 25 18.4477 25 19V24C25 24.5523 24.5523 25 24 25H4C3.44772 25 3 24.5523 3 24V19C3 18.4477 3.44772 18 4 18Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>Repositório Inteligente</h3>
+          <p>
+            Armazenamento seguro em nuvem com busca semântica para encontrar
+            referências e dados com facilidade.
+          </p>
+        </div>
+
+        <!-- MEDICINA -->
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="3"
+                y="8"
+                width="22"
+                height="17"
+                rx="2"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M3 13H25M8 3V8M20 3V8"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <circle
+                cx="14"
+                cy="17"
+                r="3"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+          </div>
+          <h3>Prontuário Eletrônico</h3>
+          <p>
+            Gestão completa de registros clínicos dos pacientes com interface
+            intuitiva e segura.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="14"
+                cy="14"
+                r="11.5"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M14 8.5V14L17.5 16.5"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>Diagnóstico Assistido</h3>
+          <p>
+            Suporte à análise de resultados clínicos e auxiliar inteligente na
+            tomada de decisão médica.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 14C5 9.58172 8.58172 6 14 6C19.4183 6 23 9.58172 23 14C23 18.4183 19.4183 22 14 22M14 22L19 27M14 22L9 27"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>Monitoramento de Pacientes</h3>
+          <p>
+            Acompanhamento contínuo da saúde com alertas em tempo real para
+            mudanças importantes.
+          </p>
+        </div>
+
+        <!-- TECNOLOGIA -->
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14 2.5C7.5964 2.5 2.5 7.5964 2.5 14C2.5 20.4036 7.5964 25.5 14 25.5C20.4036 25.5 25.5 20.4036 25.5 14"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M14 7V14L19 16"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>Plataforma Cloud Native</h3>
+          <p>
+            Infraestrutura 100% em nuvem, escalável e acessível de qualquer
+            lugar, sem necessidade de instalação.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 20L6.5 6.5M24 20L21.5 6.5M7 20H21M8 3H20L17 8H11L8 3Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3>IA Generativa para Escrita</h3>
+          <p>
+            Assistente inteligente de escrita para artigos, relatórios e
+            documentação científica estruturada.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="2.5"
+                y="3.5"
+                width="10"
+                height="10"
+                rx="1"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <rect
+                x="15.5"
+                y="3.5"
+                width="10"
+                height="10"
+                rx="1"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <rect
+                x="2.5"
+                y="16.5"
+                width="10"
+                height="10"
+                rx="1"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <rect
+                x="15.5"
+                y="16.5"
+                width="10"
+                height="10"
+                rx="1"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+          </div>
+          <h3>Integração de APIs</h3>
+          <p>
+            Conecte sistemas existentes e terceiros com APIs robustas e
+            documentação completa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="benefits-section">
+      <div class="section-header">
+        <h2 class="section-title">Por Que Escolher SysMed IA</h2>
+        <p class="section-subtitle">
+          Benefícios que transformam sua experiência
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-number">01</div>
+          <h3>Mais Produtividade</h3>
+          <p>
+            Automatização de tarefas repetitivas e otimização de processos
+            científicos.
+          </p>
+          <div class="benefit-arrow">→</div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-number">02</div>
+          <h3>Organização</h3>
+          <p>
+            Centralização de documentos, protocolos e dados em um único
+            ambiente.
+          </p>
+          <div class="benefit-arrow">→</div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-number">03</div>
+          <h3>Segurança</h3>
+          <p>
+            Proteção de dados seguindo princípios de privacidade e
+            confiabilidade.
+          </p>
+          <div class="benefit-arrow">→</div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-number">04</div>
+          <h3>Acessibilidade</h3>
+          <p>
+            Interface simples e intuitiva para médicos, pesquisadores e
+            estudantes.
+          </p>
+          <div class="benefit-arrow">→</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="planos" class="pricing-section">
+      <div class="section-header">
+        <h2 class="section-title">Planos & Preços</h2>
+        <p class="section-subtitle">
+          Escolha o plano ideal para sua necessidade
+        </p>
+      </div>
+
+      <div class="plans-grid">
+        <div class="plan">
+          <div class="plan-badge">Para Começar</div>
+          <h3>Free</h3>
+          <div class="price">
+            <span class="currency">R$</span>0<span class="period">/mês</span>
+          </div>
+          <p>Recursos básicos para estudantes e testes iniciais.</p>
+          <ul class="features-list">
+            <li>✓ Até 3 projetos</li>
+            <li>✓ Armazenamento básico</li>
+            <li>✓ Suporte por email</li>
+          </ul>
+          <button class="btn btn-outline">Começar Grátis</button>
+        </div>
+
+        <div class="plan plan-featured">
+          <div class="plan-badge badge-popular">Mais Popular</div>
+          <h3>Premium</h3>
+          <div class="price">
+            <span class="currency">R$</span>49<span class="period">/mês</span>
+          </div>
+          <p>Ferramentas avançadas de IA e organização científica.</p>
+          <ul class="features-list">
+            <li>✓ Projetos ilimitados</li>
+            <li>✓ IA para escrita</li>
+            <li>✓ Armazenamento 100GB</li>
+            <li>✓ Prioridade de suporte</li>
+          </ul>
+          <button class="btn btn-primary">Começar Teste</button>
+        </div>
+
+        <div class="plan">
+          <div class="plan-badge">Para Empresas</div>
+          <h3>Enterprise</h3>
+          <div class="price">Sob consulta</div>
+          <p>Planos personalizados para universidades e clínicas.</p>
+          <ul class="features-list">
+            <li>✓ Tudo do Premium</li>
+            <li>✓ API customizada</li>
+            <li>✓ Suporte dedicado</li>
+            <li>✓ SLA garantido</li>
+          </ul>
+          <button class="btn btn-outline">Contate-nos</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+      <div class="section-header">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="section-subtitle">Tire suas dúvidas conosco</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Conecte-se com a gente</h3>
+          <p>
+            Estamos prontos para ajudar você a revolucionar sua pesquisa e
+            prática clínica.
+          </p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h4>Email</h4>
+                <p>contato@sysmedaia.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">💼</div>
+              <div>
+                <h4>LinkedIn</h4>
+                <p>SysMed IA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Seu Nome</label>
+            <input type="text" id="name" placeholder="João Silva" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Seu Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="joao@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Sua Mensagem</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Como podemos ajudar?"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>SysMed IA</h4>
+          <p>Tecnologia Inteligente para Pesquisa e Saúde</p>
+        </div>
+        <div class="footer-section">
+          <h4>Produto</h4>
+          <ul>
+            <li><a href="#produto">Recursos</a></li>
+            <li><a href="#planos">Preços</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 SysMed IA — Tecnologia Inteligente para Pesquisa e Saúde</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
